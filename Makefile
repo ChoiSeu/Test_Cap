@@ -15,5 +15,5 @@ run run_test run.test test:
 		--address=${ADDRESS}\
 		--filename=${FILE}.pcap
 
-clean:
+clean clear:
 	rm -rf ${SOURCE}/__pycache__
